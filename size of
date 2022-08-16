@@ -1,0 +1,23 @@
+//subtraction of two number 
+#include<stdio.h>
+
+int main()
+
+{
+	int num1;
+	char ch;
+	float f;
+	double d;
+
+
+	printf("\nsize of int=%d", sizeof(num1));
+	printf("\nsize of char=%d", sizeof(char));
+	printf("\nsize of float=%d", sizeof(float));
+	printf("\nsize of double=%d", sizeof(double));
+
+	return(0);
+
+
+
+	return(0);
+}
