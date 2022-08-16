@@ -1,0 +1,21 @@
+//addition of two number with taking input from user
+#include<stdio.h>
+
+int main()
+
+{
+	int a, b, add;
+
+	printf("\n enter value of a:");
+	scanf("%d", &a);
+
+	printf("\n enter value of b:");
+	scanf("%d", &b);
+
+	add = a + b;
+
+	printf("\naddition of a+b is : %d", add);
+
+	return(0);
+
+}
