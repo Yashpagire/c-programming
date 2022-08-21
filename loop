@@ -196,3 +196,82 @@ int main()
 
 	return(0);
 }
+
+
+
+
+//print no -4to4
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=-4;i<=4;i=i+1)
+	{
+		printf("%d", i);
+	}
+
+
+
+	return(0);
+}
+
+
+
+
+
+//accept two no for user and print maximum no
+#include<stdio.h>
+int main()
+{
+	int a, b;
+	printf("\nenter value of a:");
+	scanf("\n%d", &a);
+
+
+	printf("\nenter value of b:");
+	scanf("\n%d", &b);
+
+	if(a>b)
+	{
+		printf("a > b");
+
+	}
+	else
+	{
+		printf("b > a");
+	}
+
+
+	return(0);
+}
+
+
+
+
+
+//accept two no from user and print minimum no
+
+#include<stdio.h>
+int main()
+{
+	int a, b;
+
+	printf("enter value of a :");
+	scanf("%d", &a);
+
+	printf("\nenter value of b:");
+	scanf("%d", &b);
+
+	if (a < b)
+
+	{
+		printf("a<b");
+	}
+	else
+
+	{
+		printf("b<a");
+	}
+	return(0);
+
+}
