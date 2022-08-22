@@ -1,19 +1,29 @@
-//demostrate example of break
+//demonstrate example of continue
 #include<stdio.h>
 int main()
 {
 	int i;
-
-	while (i<=10)
+	while(i<10)
 	{
-		printf("%d", i);
+		
 		i++;
-
-		if (i==7)
+		if (i == 3)
 		{
-			break;
+			continue;
 		}
-
+	
+		printf("%d", i);
+		
 	}
+
+
+
+
+
+
+
+
+
+
 	return(0);
 }
