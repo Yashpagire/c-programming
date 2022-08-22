@@ -1,20 +1,19 @@
-//implement infinite loop using for loop
+//demostrate example of break
 #include<stdio.h>
 int main()
 {
-	int i = 0;
-	for (; ;)  //infinite loop
+	int i;
+
+	while (i<=10)
 	{
-		if (i <= 5)
-		{
-			printf("%d", i);
-		}
-		else
+		printf("%d", i);
+		i++;
+
+		if (i==7)
 		{
 			break;
 		}
-		i++;
-	}
 
+	}
 	return(0);
 }
