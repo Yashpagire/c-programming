@@ -1,0 +1,28 @@
+//accept 3 int numbers from user and print multiplication of 3 number
+#include<stdio.h>
+int main()
+{
+	int a;
+	int b;
+	int c;
+	int mult ;
+	
+	printf("\nenter value of a:");
+	scanf("\n%d", &a);
+
+
+	printf("\nenter value of b:");
+	scanf("\n%d", &b);
+
+
+	printf("\nenter value of c:");
+	scanf("\n%d", &c);
+
+	mult = a * b * c;
+
+		printf("\nmultiplication of a*b*c=%d", mult);
+
+		
+
+    return(0);
+}
