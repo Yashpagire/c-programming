@@ -1,33 +1,23 @@
-// find sum,mul,sub,dev using switch case
+//declare array and assign 5 int values and print all  values by using for loop
 #include<stdio.h>
- int main(int argc, char *argv[])
+int main()
 {
-	//local variable declaration
-	int a, b;
-	float ans = 0.0f;
-	char symbol;
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	symbol = argv[2][0];
+	int i;
+	int arr[5];
+	int sum = 0;
 
-	switch (symbol)
-	{
-	case'+':
-		ans = a + b; break;
+	arr[0] = 10;
+	arr[1] = 20;
+	arr[2] = 30;
+	arr[3] = 40;
+	arr[4] = 50;
 
-	case'-':
-		ans = a - b; break;
-
-	case'*':
-		ans = a * b; break;
-  
-	case'/':
-		ans = (float)a / (float)b; break;
-
-	default:
-		printf("\n invalid operation");
-		exit(1);
-    }
-	printf("\n ans=%.1f", ans);
+	for (i = 0; i < 1; i++)
+	{ 
+		printf("%d%d%d", arr[0], arr[1], arr[2]);
+		sum =  arr[3]+arr[4];
+	}
+	printf("sum=%d", sum);
 	return(0);
+
 }
