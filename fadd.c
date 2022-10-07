@@ -1,32 +1,29 @@
-//accept no of user and print addition of two no by using function
+//accept n no of user and print all no addition by using loop
 #include<stdio.h>
- int main()
+int main()
 {
-	//fun declaration
-	int addition(int, int);
-
-	//local variable
-	int a;
-	int b;
+	//local varible
+	int  max;
 	int ans = 0;
+	//fun declaration
+	int addition(int max);
 
 	//code
-	printf("enter value of a:");
-	scanf("%d", &a);
-	printf("enter value of b:");
-	scanf("%d", &b);
+	printf("enter value max:");
+	scanf("%d", &max);
 
-	printf("ans=%d", addition(a, b));
+	printf("ans=%d", addition(max));
 
 	return(0);
-	
-}
-  int addition(int a, int b)
-{
-	  
-	  int add;
 
-	add = a + b;
-	return(add);
 }
- 
+int addition(int max)
+{
+	int add;
+    //code
+	for (int i = 1; i <= max; i++)
+	{
+		add = add + i;
+	}
+	return(add);
+  }
